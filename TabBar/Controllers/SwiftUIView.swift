@@ -13,6 +13,9 @@ struct SwiftUIView: View {
         Text("My name is Anna")
           .padding()
         Image(systemName: "person.fill")
+          .resizable()
+          .frame(width: 100, height: 100, alignment: .center)
+          .foregroundColor(.orange)
           .padding()
       }
     }
